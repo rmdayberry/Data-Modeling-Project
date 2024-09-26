@@ -18,11 +18,6 @@ CREATE TABLE posts (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE categories (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(50) NOT NULL
-);
-
 CREATE TABLE post_categories (
   post_id INT REFERENCES posts(id),
   category_id INT REFERENCES categories(id),
