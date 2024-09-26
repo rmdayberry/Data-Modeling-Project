@@ -88,16 +88,3 @@ VALUES
 (3, 1, 2, 1, '2023-06-15', 3, 2),  -- Eagles vs Lions
 (2, 3, 1, 2, '2024-04-20', 0, 1);  -- Sharks vs Eagles
 
-INSERT INTO goals (match_id, player_id, goal_time, goal_type)
-VALUES 
-(1, 1, '00:15:00', 'Free Kick'), -- Messi scoring for Lions
-(1, 2, '00:35:00', 'Penalty'), -- Ronaldo scoring for Sharks
-(2, 3, '00:10:00', 'Header'),  -- Mbappe scoring for Eagles
-(2, 4, '00:45:00', 'Corner Kick'), -- van Dijk scoring for Lions
-(3, 5, '00:25:00', 'Long Range');  -- Neymar scoring for Sharks
-
-INSERT INTO standings (season_id, team_id, games_played, wins, losses, draws, points)
-VALUES 
-(1, 1, 2, 0, 1, 1, 1), -- Lions
-(1, 2, 2, 0, 1, 1, 1), -- Sharks
-(1, 3, 2, 2, 0, 0, 6); -- Eagles

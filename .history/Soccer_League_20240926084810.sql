@@ -96,8 +96,3 @@ VALUES
 (2, 4, '00:45:00', 'Corner Kick'), -- van Dijk scoring for Lions
 (3, 5, '00:25:00', 'Long Range');  -- Neymar scoring for Sharks
 
-INSERT INTO standings (season_id, team_id, games_played, wins, losses, draws, points)
-VALUES 
-(1, 1, 2, 0, 1, 1, 1), -- Lions
-(1, 2, 2, 0, 1, 1, 1), -- Sharks
-(1, 3, 2, 2, 0, 0, 6); -- Eagles
