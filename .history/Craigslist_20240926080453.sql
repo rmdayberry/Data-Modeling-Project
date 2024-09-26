@@ -38,16 +38,16 @@ VALUES
 
 INSERT INTO users (username, email, preferred_region_id)
 VALUES 
-('marin_girl123', 'marin_girl123@hmail.com', 1), -- prefers SF
-('cowboyqueen', 'yeehaw22@hmail.com', 2), -- prefers Austin
+('marin_girl123', 'marin_girl123@hmail.com', 1) -- prefers SF
+('cowboyqueen', 'yeehaw22@hmail.com', 2) -- prefers Austin
 ('harvardmed09', 'sarahmitchell@harvard.edu', 3) -- prefers Boston
 ;
 
 INSERT INTO posts (title, content, user_id, location, region_id)
 VALUES 
-('Puppy Adoption', '8 week old cattle dog puppy available for adoption', 1, 'Marin', 1),
-('Two-Step Lessons', 'Hourly two-step dance lessons-- meet at Texas Bar', 2, 'Downtown',2),
-('Looking for Volunteers', 'Seeking volunteer physicians for health clinic', 3, 'Cambridge',3)
+('Puppy Adoption', '8 week old cattle dog puppy available for adoption', 1, 'Marin'),
+('Two-Step Lessons', 'Hourly two-step dance lessons-- meet at Texas Bar', 2, 'Downtown'),
+('Looking for Volunteers', 'Seeking volunteer physicians for health clinic', 3, 'Cambridge')
 ;
 
 INSERT INTO categories (name)
